@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+
+:root {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+  /* Colors Schema */
+  --emerald: #58bc82ff;
+  --light-green: #8fe388ff;
+  --baby-powder: #F5F8F4;
+  --ultra-violet: #645986ff;
+
+  /* Fonts Schema */
+  --mukta-vaani: "Mukta Vaani", sans-serif;
+  --lato: "Lato", sans-serif;
+  --scope-one: "Scope One", serif;
+
+  /* Break Points */
+  --w-1900: 1900px;
+  --w-1600: 1600px;
+  --w-1366: 1366px;
+  --w-1280: 1280px;
+  --w-820: 820px;
+  --w-768: 768px;
+  --w-414: 414px;
+  --w-375: 375px;
+}
+
+div#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
