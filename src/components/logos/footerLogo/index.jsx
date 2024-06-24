@@ -5,8 +5,8 @@ export default function index() {
     return (
         <div className='footer-logo'>
             <img
-                src='../../../../public/assets/logo/logo-dark-mode.png'
-                width={"100%"} />
+                src='/assets/logo/logo-dark-mode.png'
+                height={"50px"} />
         </div>
     )
 }

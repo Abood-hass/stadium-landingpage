@@ -3,24 +3,25 @@ footer.container nav,
 footer.container div {
     display: flex;
     align-items: flex-start;
+    color: var(--baby-powder);
 }
 
 footer.container {
+    justify-content: space-between;
     background-color: var(--ultra-violet);
     padding: 22px 25px;
 }
 
-footer.container div.footer-logo {
-    margin-left: auto;
-}
-
 footer.container nav {
     flex-direction: column;
-    margin-right: 10%;
+    width: 100%;
+}
+
+footer.container nav * {
+    text-wrap: nowrap;
 }
 
 footer.container nav a {
-    color: var(--light-green);
     color: var(--baby-powder);
     font-size: 18px;
     text-decoration: none;
@@ -52,26 +53,35 @@ footer.container nav.link-group4 {
 }
 
 footer.container div.logo {
+    font-family: var(--lato);
+    font-size: 15px;
+    flex-direction: column;
     grid-area: logo;
+}
+
+footer.container div.logo p {
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 820px) {
     footer.container {
         display: grid;
-        justify-content: space-evenly;
+        justify-content: space-around;
         gap: 15px;
         grid-template-areas:
-            "link1 link2 link3 link4"
-            "logo logo logo logo";
+            "link1 link2"
+            "link3 link4";
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
     footer.container {
         display: grid;
         grid-template-areas:
-            "link1 link2"
-            "link3 link4"
-            "logo logo ";
+            "link1" "link2"
+            "link3" "link4";
+
+        justify-content: start;
     }
 }

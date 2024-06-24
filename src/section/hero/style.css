@@ -1,0 +1,151 @@
+.hero-section-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 700px;
+    width: 100%;
+    padding: 5% 5%;
+
+    position: relative;
+
+    background: var(--baby-powder);
+
+    overflow: hidden;
+}
+
+.hero-section-container .bg-curve-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+    /* transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg); */
+}
+
+.hero-section-container .cards-container {
+    display: grid;
+    grid-template-areas:
+        "card1 card2 card3"
+        "card1 card2 card3"
+        "card1 card2 card3";
+    z-index: 10;
+    flex-grow: 0.5;
+}
+
+.hero-section-container .cards-container div.card-1 {
+    margin-top: 53%;
+
+    background: var(--emerald);
+    color: var(--baby-powder);
+    grid-area: card1;
+}
+
+.hero-section-container .cards-container div.card-2 {
+    margin-top: 88%;
+
+    background: var(--ultra-violet);
+    color: var(--baby-powder);
+    grid-area: card2;
+}
+
+.hero-section-container .cards-container div.card-3 {
+    margin-top: 20%;
+
+    background: var(--light-green);
+    color: var(--ultra-violet);
+    grid-area: card3;
+}
+
+.hero-section-container .cards-container div {
+    cursor: pointer;
+    font-family: var(--scope-one);
+    font-weight: 600;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+
+    height: 220px;
+    width: 200px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.hero-section-container .moveFwdEffect:hover {
+    filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.hero-section-container .cards-container div:hover img {
+    width: 80px;
+}
+
+.hero-section-container .cards-container div img {
+    object-fit: contain;
+    width: 60px;
+    flex-grow: 0.4;
+
+    transition-duration: 200ms;
+    -webkit-transition-duration: 200ms;
+    -moz-transition--webkit-transition-duration: 200ms;
+    -ms-transition--webkit-transition-duration: 200ms;
+    -o-transition--webkit-transition-duration: 200ms;
+}
+
+.hero-section-container .cards-container div p {
+    font-size: 18px;
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .hero-section-container .text-container {
+        width: 100%;
+    }
+
+    .hero-section-container .bg-curve-img {
+        display: none;
+    }
+
+    .hero-section-container .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hero-section-container .cards-container div img {
+        width: 80px;
+    }
+
+    .hero-section-container .cards-container div p {
+        font-size: 25px;
+    }
+
+    .hero-section-container .cards-container div {
+        width: 80%;
+        height: 250px;
+        margin-top: 0 !important;
+        margin-bottom: 20px;
+
+    }
+
+    .hero-section-container .text-container .btns-container button {
+}
+}

@@ -5,7 +5,7 @@ export default function index() {
     return (
         <div className='header-logo'>
             <img
-                src='../../../../public/assets/logo/logo-dark-mode.png' />
+                src='/assets/logo/logo-dark-mode.png' />
         </div>
     )
 }

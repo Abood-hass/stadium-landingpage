@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import Logo from '../../components/logos/footerLogo'
 import './style.css'
-import { Link } from 'react-router-dom'
 
 export default function index() {
     return (
@@ -34,9 +35,13 @@ export default function index() {
                 <Link to={""}>Instagram</Link>
                 <Link to={""}>LinkedIn</Link>
             </nav>
-            <div className={'logo'}>
+            {/* <div className={'logo'}>
                 <div><Logo /></div>
-            </div>
+                <div>
+                    <p>Great Match Require Great Place.</p>
+                </div>
+                <div></div>
+            </div> */}
         </footer>
     )
 }

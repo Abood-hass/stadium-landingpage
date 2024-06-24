@@ -1,3 +1,7 @@
 div.footer-logo  {
     padding: 0 auto;
 }
+
+div.footer-logo img{
+    object-fit: contain;
+}

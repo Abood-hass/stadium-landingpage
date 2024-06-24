@@ -1,0 +1,76 @@
+.text-box-container {
+    padding: 5% 0;
+    z-index: 10;
+    color: var(--emerald);
+    width: 50%;
+    flex-shrink: 0.5;
+    font-family: var(--mukta-vaani);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+
+.text-box-container small {
+    font-family: var(--lato);
+    color: var(--ultra-violet);
+}
+
+.text-box-container h2 {
+    color: var(--emerald);
+    line-height: 1;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.text-box-container p {
+    color: var(--light-green);
+    font-family: var(--scope-one);
+    font-weight: 600;
+}
+
+.text-box-container .btns-container {
+    padding: 25px 5px;
+}
+
+.text-box-container .btns-container button {
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-right: 10px;
+
+    border: 1px solid var(--emerald);
+    color: var(--baby-powder);
+    background-color: var(--emerald);
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    transition-duration: 200ms;
+}
+
+.text-box-container .btns-container button:nth-last-child(1) {
+    border: 1px solid var(--emerald);
+    color: var(--ultra-violet);
+    background-color: #0000;
+}
+
+.text-box-container .btns-container button:hover {
+    color: var(--baby-powder);
+    background-color: var(--ultra-violet);
+    border: 1px solid var(--ultra-violet);
+}
+
+.text-box-container .moveFwdEffect:hover {
+    filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
