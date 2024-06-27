@@ -1,5 +1,4 @@
 import React from 'react'
-import { animated } from '@react-spring/web'
 import FeatureTopic from '../../components/features-topics'
 import './style.css'
 

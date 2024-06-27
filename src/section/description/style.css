@@ -5,3 +5,13 @@
 
     gap: 25px;
 }
+
+@media (max-width: 900px) {
+    .features-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25%;
+        gap: 25px;
+    }
+
+}
