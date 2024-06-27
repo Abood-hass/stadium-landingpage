@@ -77,6 +77,40 @@
 
 @media (max-width: 1000px) {
     .text-box-container {
+        height: 90vh;
         width: 100%;
     }
+
+
+    .text-box-container small {
+        margin-bottom: auto;
+        font-size: 1.2rem;
+        font-family: var(--lato);
+        color: var(--ultra-violet);
+    }
+
+    .text-box-container h2 {
+        color: var(--emerald);
+        line-height: 1;
+        margin-bottom: 15px;
+        font-size: 80px;
+    }
+
+    .text-box-container p {
+        color: var(--light-green);
+        font-family: var(--scope-one);
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .text-box-container .btns-container {
+        margin-top: auto;
+        padding: 25px 5px;
+        width: 100%;
+    }
+
+    .text-box-container .btns-container button {
+        font-size: 1.2rem;
+    }
+
 }

@@ -9,6 +9,8 @@
   box-sizing: border-box;
   user-select: none;
 
+  color: var(--ultra-violet);
+
   transition: all 500ms;
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
