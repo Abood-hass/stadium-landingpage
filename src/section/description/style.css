@@ -6,11 +6,7 @@
     gap: 25px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1000px) {
-=======
-@media (max-width: 900px) {
->>>>>>> 6cc6b2436c8f309405ffba37c3fedefc4fde410e
     .features-container {
         display: grid;
         grid-template-columns: 100%;

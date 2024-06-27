@@ -56,16 +56,3 @@
     font-family: var(--lato);
     min-width: 80%;
 }
-
-
-
-@media (max-width: 900px) {
-    .feature-container {
-        grid-template-areas:
-            "num"
-            "text";
-
-        gap: 25px;
-    }
-
-}
