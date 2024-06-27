@@ -1,0 +1,58 @@
+.feature-container {
+    display: grid;
+    grid-template-areas:
+        "num text text";
+
+    padding: 5px;
+    background: var(--emerald);
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.feature-container .desc-num {
+    grid-area: num;
+    font-size: 200px;
+    padding: 5px;
+    line-height: 1;
+
+    margin: 10px;
+
+    color: var(--ultra-violet);
+    font-family: var(--mukta-vaani);
+}
+
+.feature-container .feature-text {
+    grid-area: text;
+    margin: 10px;
+
+}
+
+.feature-container .desc-header {
+
+    padding: 5px;
+    padding-top: 25px;
+    margin: 10px;
+    /* margin-top: auto; */
+    font-weight: 600;
+
+    font-size: 28px;
+    color: var(--baby-powder);
+    font-family: var(--scope-one);
+    width: fit-content;
+}
+
+.feature-container .desc-paragraph {
+
+    padding: 5px;
+    margin: 10px;
+    /* margin-bottom: auto; */
+
+    font-size: 20px;
+    color: var(--baby-powder);
+    font-family: var(--lato);
+    min-width: 80%;
+}

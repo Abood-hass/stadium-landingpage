@@ -30,8 +30,8 @@
 
   /* Fonts Schema */
   --mukta-vaani: "Mukta Vaani", sans-serif;
-  --lato: "Lato", sans-serif;
   --scope-one: "Scope One", serif;
+  --lato: "Lato", sans-serif;
 
   /* Break Points */
   --w-1900: 1900px;
@@ -48,6 +48,12 @@ div#root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  background: var(--baby-powder);
+}
+
+section {
+  padding: 5%;
 }
 
 footer {

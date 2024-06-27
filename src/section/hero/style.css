@@ -5,7 +5,6 @@
     justify-content: space-between;
     min-height: 700px;
     width: 100%;
-    padding: 5% 5%;
 
     position: relative;
 
@@ -20,11 +19,6 @@
     right: 0;
     height: 100%;
     z-index: 0;
-    /* transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg); */
 }
 
 .hero-section-container .cards-container {
@@ -83,8 +77,8 @@
 }
 
 .hero-section-container .moveFwdEffect:hover {
-    filter: drop-shadow(14px 14px 5px var(--ultra-violet));
-    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    /* filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet)); */
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -115,9 +109,6 @@
 }
 
 @media (max-width: 1000px) {
-    .hero-section-container .text-container {
-        width: 100%;
-    }
 
     .hero-section-container .bg-curve-img {
         display: none;
@@ -145,7 +136,4 @@
         margin-bottom: 20px;
 
     }
-
-    .hero-section-container .text-container .btns-container button {
-}
 }

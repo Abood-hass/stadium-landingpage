@@ -66,11 +66,17 @@
 }
 
 .text-box-container .moveFwdEffect:hover {
-    filter: drop-shadow(14px 14px 5px var(--ultra-violet));
-    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    /* filter: drop-shadow(14px 14px 5px var(--ultra-violet));
+    -webkit-filter: drop-shadow(14px 14px 5px var(--ultra-violet)); */
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+    .text-box-container {
+        width: 100%;
+    }
 }
