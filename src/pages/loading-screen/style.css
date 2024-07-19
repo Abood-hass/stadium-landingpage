@@ -1,0 +1,86 @@
+div.loading-screen-page-container {
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    background: var(--emerald);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.loading-screen-page-container img {
+    object-fit: cover;
+}
+
+div.loading-screen-page-container img.ball {
+    animation: bouncyBall 1.3s infinite;
+    -webkit-animation: bouncyBall 1.3s infinite;
+
+}
+
+@keyframes bouncyBall {
+    0% {
+        -webkit-animation-timing-function: ease-in;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    40% {
+        -webkit-animation-timing-function: ease-out;
+        transform: translateY(-5%);
+        -webkit-transform: translateY(-5%);
+        -moz-transform: translateY(-5%);
+        -ms-transform: translateY(-5%);
+        -o-transform: translateY(-5%);
+    }
+
+    50% {
+        -webkit-animation-timing-function: ease-in;
+        transform: translateY(-15%);
+        -webkit-transform: translateY(-15%);
+        -moz-transform: translateY(-15%);
+        -ms-transform: translateY(-15%);
+        -o-transform: translateY(-15%);
+}
+
+    55% {
+        -webkit-animation-timing-function: ease-out;
+        transform: translateY(-25%);
+        -webkit-transform: translateY(-25%);
+        -moz-transform: translateY(-25%);
+        -ms-transform: translateY(-25%);
+        -o-transform: translateY(-25%);
+}
+
+    65% {
+        -webkit-animation-timing-function: ease-in;
+        transform: translateY(-30%);
+        -webkit-transform: translateY(-30%);
+        -moz-transform: translateY(-30%);
+        -ms-transform: translateY(-30%);
+        -o-transform: translateY(-30%);
+}
+
+    95% {
+        -webkit-animation-timing-function: ease-out;
+        transform: translateY(-35%);
+        -webkit-transform: translateY(-35%);
+        -moz-transform: translateY(-35%);
+        -ms-transform: translateY(-35%);
+        -o-transform: translateY(-35%);
+}
+
+    100% {
+        -webkit-animation-timing-function: ease-in;
+        transform: translateY(-0%);
+        -webkit-transform: translateY(-0%);
+        -moz-transform: translateY(-0%);
+        -ms-transform: translateY(-0%);
+        -o-transform: translateY(-0%);
+}
+
+}

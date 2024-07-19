@@ -1,0 +1,56 @@
+div.form-container {
+    padding: 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+
+div.form-container .form-btns-container {
+    padding: 20px 55px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+}
+
+div.form-container .form-btns-container button {
+    padding: 10px 8px;
+    color: var(--baby-powder);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    transition: all 150ms;
+    -webkit-transition: all 150ms;
+    -moz-transition: all 150ms;
+    -ms-transition: all 150ms;
+    -o-transition: all 150ms;
+}
+
+div.form-container .form-btns-container button:nth-child(1) {
+    background: var(--emerald);
+    border: 1px solid var(--emerald);
+
+}
+
+div.form-container .form-btns-container button:nth-child(2) {
+    background: var(--ultra-violet);
+    border: 1px solid var(--ultra-violet);
+
+}
+
+div.form-container .form-btns-container button:hover {
+    background: var(--baby-powder);
+    color: var(--ultra-violet);
+    border: 1px solid var(--ultra-violet);
+}

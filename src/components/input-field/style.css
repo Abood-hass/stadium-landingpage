@@ -1,0 +1,33 @@
+div.input-field-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-bottom: 40px;
+}
+
+div.input-field-container.columnDir {
+    flex-direction: column;
+}
+
+div.input-field-container span {
+    font-size: 1.2rem;
+    color: var(--ultra-violet);
+    margin-bottom: 10px;
+}
+
+div.input-field-container input {
+    border: 1px solid var(--ultra-violet);
+    border-width: 0 0 1px 0;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+
+div.input-field-container textarea {
+    height: 400px;
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+}

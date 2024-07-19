@@ -1,0 +1,44 @@
+div.social-media-icon-container {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    opacity: 50%;
+
+    transform: translateX(-65%);
+    -webkit-transform: translateX(-65%);
+    -moz-transform: translateX(-65%);
+    -ms-transform: translateX(-65%);
+    -o-transform: translateX(-65%);
+
+
+    transition: all 250ms ease-out;
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+}
+
+div.social-media-icon-container span {
+    opacity: 0%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+div.social-media-icon-container:hover {
+    opacity: 100%;
+
+
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+
+    
+    &>span {
+        opacity: 100%;
+    }
+}

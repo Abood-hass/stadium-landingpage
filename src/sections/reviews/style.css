@@ -1,0 +1,16 @@
+.reviews-section-container {
+    padding: 25px;
+
+    overflow: hidden;
+}
+
+.reviews-section-container .reviews-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+.reviews-section-container .reviews-container>div:nth-child(odd){
+    margin-left: auto;
+}

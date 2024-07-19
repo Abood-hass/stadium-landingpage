@@ -1,0 +1,79 @@
+div.feature-container {
+    display: grid;
+    grid-template-areas:
+        "num text text"
+        "num text text";
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 25px;
+    gap: 20px;
+    background: var(--emerald);
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+div.feature-container .desc-num {
+    grid-area: num;
+    color: var(--ultra-violet);
+    font-size: 80px;
+    line-height: 0.8;
+}
+
+div.feature-container .feature-text {
+    grid-area: text;
+    color: var(--baby-powder);
+    padding: 0 20px;
+}
+
+div.feature-container .feature-text .desc-header {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+div.feature-container .feature-text .desc-para span:nth-child(1) {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+div.feature-container .feature-text .desc-para span:nth-child(2) {
+    display: none;
+    color: var(--ultra-violet);
+    font-weight: 600;
+}
+
+div.feature-container .feature-text .desc-para span:nth-child(2)::before {
+    content: " ";
+}
+
+
+@media (max-width: 600px) {
+    div.feature-container {
+        grid-template-areas:
+            "num num num"
+            "text text text";
+
+        margin: 0;
+    }
+
+    div.feature-container .desc-num {
+        font-size: 30px;
+    }
+
+    div.feature-container .feature-text .desc-para span:nth-child(1) {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    div.feature-container .feature-text .desc-para span:nth-child(2) {
+        display: inline;
+    }
+}

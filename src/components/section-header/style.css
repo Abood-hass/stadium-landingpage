@@ -1,0 +1,13 @@
+.section-header-container {
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 25px;
+    color: var(--ultra-violet);
+}
+
+
+@media (max-width: 1000px) {
+    .section-header-container {
+        font-size: 2em;
+    }
+}

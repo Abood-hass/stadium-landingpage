@@ -1,0 +1,92 @@
+.text-box-container {
+    padding: 5% 0;
+    z-index: 10;
+    color: var(--emerald);
+    flex-shrink: 0.5;
+    font-family: var(--mukta-vaani);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.text-box-container small {
+    font-family: var(--lato);
+    color: var(--ultra-violet);
+}
+
+.text-box-container h2 {
+    color: var(--emerald);
+    line-height: 1;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.text-box-container p {
+    color: var(--light-green);
+    font-family: var(--scope-one);
+    font-weight: 600;
+}
+
+.text-box-container .btns-container {
+    padding: 25px 5px;
+}
+
+.text-box-container .btns-container button {
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-right: 10px;
+
+    border: 1px solid var(--emerald);
+    color: var(--baby-powder);
+    background-color: var(--emerald);
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    transition-duration: 200ms;
+}
+
+.text-box-container .btns-container button:nth-last-child(1) {
+    border: 1px solid var(--emerald);
+    color: var(--ultra-violet);
+    background-color: #0000;
+}
+
+.text-box-container .btns-container button:hover {
+    color: var(--baby-powder);
+    background-color: var(--ultra-violet);
+    border: 1px solid var(--ultra-violet);
+}
+
+@media (max-width: 1000px) {
+    .text-box-container {
+        min-height: 90vh;
+    }
+
+    .text-box-container small {
+        font-size: 1.5rem;
+    }
+
+    .text-box-container h2 {
+        font-size: 3.2rem;
+        margin-top: 18%;
+    }
+
+    .text-box-container p {
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+
+    .text-box-container .btns-container button {
+        font-size: 1.2rem;
+        margin-top: 20%;
+    }
+
+}
