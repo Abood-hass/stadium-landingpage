@@ -1,6 +1,6 @@
 import React from 'react'
 import { animated, useScroll, } from '@react-spring/web'
-// import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import './style.css'
 
@@ -37,7 +37,7 @@ export default function index({ clientImg, clientName, reviewText, dir, scrollPo
             </div>
 
             <div className='review-client-info-container'>
-                {/* <LazyLoadImage
+                <LazyLoadImage
                     className='client-img'
                     placeholderSrc={"assets/\\favicon/\\icon-color.png"}
                     threshold={50}
@@ -46,8 +46,8 @@ export default function index({ clientImg, clientName, reviewText, dir, scrollPo
                     alt={clientName.toLowerCase() + "-photo"}
                     height={60}
                     width={60}
-                /> */}
-                <img src={clientImg} alt={clientName.toLowerCase() + "-photo"} loading="eager" />
+                />
+                {/* <img src={clientImg} alt={clientName.toLowerCase() + "-photo"} loading="eager" /> */}
                 <h4>{clientName || "Abdullah Hassouna"}</h4>
             </div>
 

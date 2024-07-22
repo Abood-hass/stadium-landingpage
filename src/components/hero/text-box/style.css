@@ -5,12 +5,10 @@
     flex-shrink: 0.5;
     font-family: var(--mukta-vaani);
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
     gap: 5px;
     margin-bottom: 5px;
-    
 }
 
 .text-box-container small {

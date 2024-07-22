@@ -14,18 +14,13 @@ export default function index() {
     return (
 
         <animated.div style={textSlideAnime} className='text-box-container'>
-            <div className='text-container'>
-                <small>Where this match will be done ?</small>
-                <h2 className='moveFwdEffect'>Never miss a chance for easy Score</h2>
-                <p>Solution for Stadium owner to Skyrocket His benefits, and for Teams
-                    to have a better place to Practice and Play</p>
-                <div className='btns-container'>
-                    <button>Join Us Now</button>
-                    <button>Check More</button>
-                </div>
-            </div>
-            <div className='image-container'>
-                <img src="\assets\hero-images\football-player.png" alt="" srcSet="" />
+            <small>Where this match will be done ?</small>
+            <h2 className='moveFwdEffect'>Never miss a chance for easy Score</h2>
+            <p>Solution for Stadium owner to Skyrocket His benefits, and for Teams
+                to have a better place to Practice and Play</p>
+            <div className='btns-container'>
+                <button>Join Us Now</button>
+                <button>Check More</button>
             </div>
         </animated.div>
     )

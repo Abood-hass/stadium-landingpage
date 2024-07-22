@@ -1,9 +1,7 @@
-import Hero from '../../sections/hero'
-import Desc from '../../sections/description'
-import Reviews from '../../sections/reviews'
-import SocialMediaIcons from '../../sections/social-media'
-import ContactUs from '../../sections/contact-us'
-
+import Hero from '../../section/hero'
+import Desc from '../../section/description'
+import Reviews from '../../section/reviews'
+import SocialMediaIcons from '../../section/social-media'
 
 export default function Home() {
     return (
@@ -12,7 +10,6 @@ export default function Home() {
             <Hero />
             <Desc />
             <Reviews />
-            <ContactUs />
         </article>
     )
 }

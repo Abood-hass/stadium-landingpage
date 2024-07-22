@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+import Logo from '../../components/logos/footerLogo'
 import './style.css'
 
 export default function index() {
@@ -7,31 +9,31 @@ export default function index() {
         <footer className='container'>
             <nav className={'link-group1'}>
                 <h3>Company</h3>
-                <a to={""}>About Us</a>
-                <a to={""}>Our Team</a>
-                <a to={""}>Careers</a>
-                <a to={""}>Contact Us</a>
+                <Link to={""}>About Us</Link>
+                <Link to={""}>Our Team</Link>
+                <Link to={""}>Careers</Link>
+                <Link to={""}>Contact Us</Link>
             </nav>
             <nav className={'link-group2'}>
                 <h3>Resources</h3>
-                <a to={""}>Blog</a>
-                <a to={""}>FAQs</a>
-                <a to={""}>Support</a>
-                <a to={""}>Tutorials</a>
+                <Link to={""}>Blog</Link>
+                <Link to={""}>FAQs</Link>
+                <Link to={""}>Support</Link>
+                <Link to={""}>Tutorials</Link>
             </nav>
             <nav className={'link-group3'}>
                 <h3>Legal</h3>
-                <a to={""}>Terms of Service</a>
-                <a to={""}>Privacy Policy</a>
-                <a to={""}>Cookie Policy</a>
-                <a to={""}>Disclaimer</a>
+                <Link to={""}>Terms of Service</Link>
+                <Link to={""}>Privacy Policy</Link>
+                <Link to={""}>Cookie Policy</Link>
+                <Link to={""}>Disclaimer</Link>
             </nav>
             <nav className={'link-group4'}>
                 <h3>Follow Us</h3>
-                <a to={""}>Facebook</a>
-                <a to={""}>Twitter</a>
-                <a to={""}>Instagram</a>
-                <a to={""}>LinkedIn</a>
+                <Link to={""}>Facebook</Link>
+                <Link to={""}>Twitter</Link>
+                <Link to={""}>Instagram</Link>
+                <Link to={""}>LinkedIn</Link>
             </nav>
             {/* <div className={'logo'}>
                 <div><Logo /></div>
